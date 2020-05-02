@@ -8,10 +8,17 @@ This is a project in sinatra
 
 # How to run with docker?
 
-Run in your terminal
+To build and run the image you can run the `start.sh` file in your terminal
 
-`$ docker build -t fab/myapp .`
-`$ docker run --rm -d -p 8082:4567 --name server fab/myapp`
+```
+$ sh start.sh
+```
+
+To stop the image
+
+```
+$ sh stop.sh
+```
 
 # Endpoints
 
