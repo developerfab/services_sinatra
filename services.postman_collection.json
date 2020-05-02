@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "cd0a2075-e4fc-4b8d-9e01-5aa85ddf0df9",
+		"name": "services",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "create service",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Cellphone\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3005/services",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3005",
+					"path": [
+						"services"
+					]
+				},
+				"description": "You should send the parameter name"
+			},
+			"response": []
+		},
+		{
+			"name": "show services",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Cellphone\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3005/services",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3005",
+					"path": [
+						"services"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete service",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\": 5\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3005/services",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3005",
+					"path": [
+						"services"
+					]
+				},
+				"description": "you should send the id parameter"
+			},
+			"response": []
+		}
+	]
+}
