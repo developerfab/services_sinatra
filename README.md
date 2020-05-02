@@ -34,7 +34,7 @@ Params:
 
 ## Delete a service
 ```
-POST http://127.0.0.1:8082/services
+DELETE http://127.0.0.1:8082/services
 
 Params:
 {
