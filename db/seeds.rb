@@ -1,7 +1,7 @@
 services = [
   { name: 'water' },
   { name: 'phone' },
-  { name: 'energy' },
+  { name: 'electricity' },
   { name: 'gas' }
 ]
 
